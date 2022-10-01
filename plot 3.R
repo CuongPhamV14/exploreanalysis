@@ -1,8 +1,7 @@
 # Exploraroty Data Analysis Course
-# Course project 1: plot 2
+# Course project 1: plot 3
 # by Cuong Pham V
 
-setwd("/Users/cuongpham/Dropbox/Data work/Data Science/Course 4 - Exploratory Data Analysis/")
 
 library(lubridate)
 
