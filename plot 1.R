@@ -1,9 +1,9 @@
 
 # Exploraroty Data Analysis Course
 # Course project 1: plot 1
+# By Cuong Pham V
 
 
-setwd("/Users/cuongpham/Dropbox/Data work/Data Science/Course 4 - Exploratory Data Analysis/")
 
 
 ## 1. Reading data from txt file into mydata
