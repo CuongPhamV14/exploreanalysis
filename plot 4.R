@@ -1,8 +1,7 @@
 # Exploraroty Data Analysis Course
-# Course project 1: plot 3
+# Course project 1: plot 4
 # by Cuong Pham V
 
-setwd("/Users/cuongpham/Dropbox/Data work/Data Science/Course 4 - Exploratory Data Analysis/")
 
 library(lubridate)
 
@@ -44,12 +43,12 @@ par(mfrow=c(2,2))
 with(subdat, plot(Global_active_power~full_date, type='l', 
                             xlab = "", ylab="Global Active Power (kilowatts)" ))
 
-#2) Voltage vs. Weekday-Time
+# plot 2) Voltage vs. Weekday-Time
 with(subdat, plot(Voltage~full_date, type='l', 
                             xlab = "datetime"))
 
 
-#3) Energy submetering vs. Weekday-time
+# plot 3) Energy submetering vs. Weekday-time
 with(subdat, plot(Sub_metering_1~full_date, type='l',
                             col = "black",
                             xlab = "", ylab="Energy sub metering" ))
