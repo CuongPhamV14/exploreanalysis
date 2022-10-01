@@ -25,7 +25,7 @@ subdat <- mydata[which(mydata$Date %in% as.Date(c("2007-02-01", "2007-02-02"))),
 subdat$Global_active_power <- as.numeric(subdat$Global_active_power)
 
 
-## Step6: Plotting line plot - Global Active Power vs. weekdays
+## 5: Plotting line plot - Global Active Power vs. weekdays
 png(filename="plot2.png", width=480, height = 480 )
 
 with(subdat, plot(Global_active_power~full_date, type='l', 
